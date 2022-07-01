@@ -2,7 +2,7 @@ class Loginpage{
 
     loginMethod(username, password){
 
-        cy.xpath(this.username()).type(username);
+        cy.xpath(this.username()).type(raju);
         cy.get(this.password()).type(password);
         cy.get(this.loginBtn()).click();
 
