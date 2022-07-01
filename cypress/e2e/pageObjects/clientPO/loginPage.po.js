@@ -28,6 +28,11 @@ class Loginpage{
 
         return "#spanMessage"
     }
+
+    demo(){
+
+        return '//input[@id="txtUsername"]'
+    }
 }
 
 export default Loginpage;
