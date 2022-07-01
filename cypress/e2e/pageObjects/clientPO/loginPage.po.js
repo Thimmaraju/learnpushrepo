@@ -8,6 +8,13 @@ class Loginpage{
 
     }
 
+    mymethod(username, password){
+
+        cy.xpath(this.username()).type(username);
+       
+
+    }
+
     username(){
 
         return '//input[@id="txtUsername"]'
